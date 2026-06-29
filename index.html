@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maximum Steps Calculator</title>
+</head>
+<body>
+
+<h2>Fitness Tracker - Maximum Steps</h2>
+
+<label>Number of Days:</label>
+<input type="number" id="n"><br><br>
+
+<label>Window Size:</label>
+<input type="number" id="k"><br><br>
+
+<label>Step Counts:</label>
+<input type="text" id="steps" placeholder="1000 2000 1500"><br><br>
+
+<button onclick="calculate()">Find Maximum</button>
+
+<h3 id="result"></h3>
+
+<script>
+function calculate() {
+
+    let n = parseInt(document.getElementById("n").value);
+    let k = parseInt(document.getElementById("k").value);
+
+    let steps = document.getElementById("steps").value.split(" ").map(Number);
+
+    let sum = 0;
+
+    for(let i = 0; i < k; i++) {
+        sum += steps[i];
+    }
+
+    let max = sum;
+
+    for(let i = k; i < n; i++) {
+        sum += steps[i] - steps[i-k];
+
+        if(sum > max) {
+            max = sum;
+        }
+    }
+
+    document.getElementById("result").innerHTML =
+    "Maximum Total Steps: " + max;
+}
+</script>
+
+</body>
+</html>

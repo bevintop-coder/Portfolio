@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fitnessTracker>
+
+    <user>
+        <name>Vikram</name>
+        <city>Bengaluru</city>
+    </user>
+
+    <data>
+        <days>5</days>
+        <windowSize>2</windowSize>
+
+        <steps>
+            <day>1000</day>
+            <day>2000</day>
+            <day>1500</day>
+            <day>3000</day>
+            <day>2500</day>
+        </steps>
+
+    </data>
+
+</fitnessTracker>
