@@ -1,7 +1,7 @@
 # Portfolio
 # 🌐 Bevinto Paul - Developer Portfolio
 
-## 📌 About This Project
+## 📌 About this Project
 
 This is my personal developer portfolio website created to showcase my skills, projects, education, and experience as a Computer Science Engineering student.
 
