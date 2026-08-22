@@ -1,0 +1,84 @@
+{
+  "portfolio": {
+    "name": "Bevinto Paul",
+    "title": "Developer Portfolio",
+    "role": "Computer Science Engineering Student",
+    "degree": "B.Tech - Computer Science Engineering",
+    "university": "VIT-AP University",
+    "batch": 2027,
+    "about": "A personal developer portfolio website showcasing skills, projects, education, and experience.",
+    "skills": {
+      "frontend": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "programming": [
+        "Java",
+        "Python",
+        "SQL"
+      ],
+      "tools": [
+        "Git",
+        "GitHub",
+        "VS Code"
+      ]
+    },
+    "projects": [
+      {
+        "name": "Student Management System",
+        "technology": "Java",
+        "description": "A Java-based console application for managing student records.",
+        "features": [
+          "Add students",
+          "View students",
+          "Search students",
+          "Delete students"
+        ]
+      },
+      {
+        "name": "Banking Management System",
+        "technology": "Java",
+        "description": "A Java project that simulates basic banking operations.",
+        "features": [
+          "Account management",
+          "Transactions",
+          "Deposit money",
+          "Withdraw money",
+          "Check balance"
+        ]
+      },
+      {
+        "name": "Graduate Skill Index",
+        "technology": "HTML, CSS, JavaScript",
+        "description": "A career accelerator project designed to bridge the gap between education and employability.",
+        "features": [
+          "Skill development",
+          "Career guidance",
+          "Project showcase",
+          "Responsive design"
+        ]
+      }
+    ],
+    "education": {
+      "degree": "B.Tech Computer Science Engineering",
+      "university": "VIT-AP University",
+      "batch": 2027
+    },
+    "contact": {
+      "name": "Bevinto Paul",
+      "email": "bevintop@gmail.com",
+      "github": "https://github.com/bevintop-coder"
+    },
+    "objective": "To present technical skills, projects, education, and learning journey while building a professional online presence.",
+    "future_improvements": [
+      "Add backend integration",
+      "Add contact form functionality",
+      "Add animations",
+      "Add project filtering",
+      "Deploy using GitHub Pages"
+    ],
+    "license": "Created for learning and portfolio purposes",
+    "year": 2026
+  }
+}
