@@ -1,0 +1,11 @@
+PortfolioDB
+│
+├── PersonalInfo
+├── Skills
+├── Education
+├── Projects
+│   └── ProjectFeatures
+├── PortfolioFeatures
+├── Technologies
+├── FutureImprovements
+└── ContactMessages
